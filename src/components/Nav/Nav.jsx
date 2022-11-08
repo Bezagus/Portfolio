@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Logo from '../../assets/Logo-Grande.svg'
+import Logo from '../../assets/Logo-Chico.svg'
 import './Nav.css'
 
 export default function Nav(){
