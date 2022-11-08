@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Logo from '../../assets/Logo-Chico.svg'
 import './Nav.css'
 
 export default function Nav(){
@@ -9,7 +10,7 @@ export default function Nav(){
     return(
         <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nav__logo">Loguito</a>
+                <a href="index.html" className="nav__logo"><img src={Logo} alt="Agustin Benitez" className="img__logo"/></a>
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
 

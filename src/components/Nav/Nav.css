@@ -36,6 +36,10 @@
     transition: .3s;
 }
 
+.img__logo{
+    height: var(--header-heigth)
+}
+
 .nav__icon,
 .nav__close,
 .nav__toggle{
