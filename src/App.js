@@ -11,6 +11,8 @@ function App() {
       <main className="main">
         <Home/>
       </main>
+
+      <div> En Proceso..</div>
     </>
   );
 }
