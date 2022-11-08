@@ -3,7 +3,7 @@ import React from "react";
 export default function Data(){
     return(
         <div className="home__data">
-            <h1 className="home__title">Agus Bez
+            <h1 className="home__title">Agustin
             <svg
                   width="36"
                   height="36"
@@ -56,7 +56,7 @@ export default function Data(){
             </h1>
             <h3 className="home__subtitle">Developer Full Stack</h3>
             <p className="home__description">
-            Full Stack Developer con formación como Desarrollador 
+            Soy Agustin Benitez Full Stack Developer con formación como Desarrollador 
             Web. Experiencia trabajando en NodeJS, React, Redux, 
             SQL entre otras tecnologías del sector.
             </p>
