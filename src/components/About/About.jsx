@@ -1,7 +1,7 @@
 import React from "react";
 import Info from "./Info/Info";
 import AboutImg from '../../assets/IMG-0432.jpg';
-import CV from '../../assets/Full Stack Developer.pdf'
+import CV from '../../assets/CV-AgustinBenitez.pdf'
 import './About.css'
 
 export default function About(){
@@ -16,11 +16,11 @@ export default function About(){
                 <div className="about__data">
                     <Info/>
                     <p className="about__description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, 
-                        neque molestias corrupti corporis asperiores reiciendis sapiente iste 
-                        tenetur fuga, a necessitatibus iure soluta commodi. Harum suscipit aliquid 
-                        corrupti quam eius?
-                    </p>
+                    Soy una Persona muy apasionada por la programación, mi pasión empezó en 
+                    a los diecisiete años y desde que me metí en este hermoso mundo siempre lo 
+                    di todo tanto para mejorar mis habilidades técnicas como mejorando mis herramientas 
+                    de trabajo.
+                    </p><br/>
 
                     <a download='' href={CV} className="button button--flex">Descargar CV
                     <svg
