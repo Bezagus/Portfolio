@@ -133,34 +133,37 @@ export default function Services() {
                             <i className="uil uil-times services__modal-close" onClick={()=>handleClick(0)}></i>
 
                             <h3 className="services__modal-title">Cursos</h3>
-                            <p className="services__modal-description">Lorem ipsum dolor, sit amet 
-                            consectetur adipisicing elit. Nobis suscipit cumque, vitae explicabo 
-                            distinctio ullam ipsam ex quam omnis quia.</p>
+                            <p className="services__modal-description">Estos son algunos de mis cursos realizados que mas destacan.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Diseño Grafico en Photoshop (Edutin)</p>
+                                    <p className="services__modal-info">Diseño Grafico en Photoshop (Edutin).</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Diseño Grafico en Illustrator (Edutin)</p>
+                                    <p className="services__modal-info">Diseño Grafico en Illustrator (Edutin).</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Desarrollo Web HTML (Google Activate)</p>
+                                    <p className="services__modal-info">Desarrollo Web HTML (Google Activate).</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Desarrollo Web CSS (Google Activate)</p>
+                                    <p className="services__modal-info">Desarrollo Web CSS (Google Activate).</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Desarrollo de APP'S Mobiles (Google Activate)</p>
+                                    <p className="services__modal-info">Desarrollo de APP'S Mobiles (Google Activate).</p>
+                                </li>
+
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className="services__modal-info">Tenico en Reparacion de Equipos Informaticos.</p>
                                 </li>
                             </ul>
                         </div>

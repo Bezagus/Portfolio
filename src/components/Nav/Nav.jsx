@@ -50,7 +50,7 @@ export default function Nav(){
                         </li>
 
                         <li className="nav__item">
-                            <a href="#constact" className="nav__link">
+                            <a href="#contact" className="nav__link">
                                 <i className="uil uil-message nav__icon"></i>
                                 Contacto
                             </a>
