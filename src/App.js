@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import About from "./components/About/About";
+import Alert from "./components/alert/Alert";
 import Home from "./components/Home/Home";
 import Nav from "./components/Nav/Nav";
 import Portfolio from "./components/Portfolio/Portfolio";
@@ -13,6 +14,7 @@ function App() {
       <Nav/>
 
       <main className="main">
+        <Alert/>
         <Home/>
         <About/>
         <Skills/>
