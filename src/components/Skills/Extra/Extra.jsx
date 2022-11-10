@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Frontend(){
+export default function Extra(){
     return(
         <div className="skills__content">
-            <h3 className="skills__title">Frontend Developer</h3>
+            <h3 className="skills__title">Herramientas</h3>
 
             <div className="skills__box">
                 <div className="skills__group">
@@ -11,7 +11,7 @@ export default function Frontend(){
                         <i class='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">React Js</h3>
+                            <h3 className="skills__name">Figma</h3>
                             <span className="skills__level">.</span>
                         </div>
                         
@@ -21,7 +21,7 @@ export default function Frontend(){
                         <i class='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Redux</h3>
+                            <h3 className="skills__name">Tello</h3>
                             <span className="skills__level">.</span>
                         </div>
                         
@@ -31,7 +31,7 @@ export default function Frontend(){
                         <i class='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">HTML</h3>
+                            <h3 className="skills__name">Git</h3>
                             <span className="skills__level">.</span>
                         </div>
                         
@@ -41,7 +41,7 @@ export default function Frontend(){
                         <i class='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Auth0</h3>
+                            <h3 className="skills__name">GitHub</h3>
                             <span className="skills__level">.</span>
                         </div>
                         
@@ -51,7 +51,17 @@ export default function Frontend(){
                         <i class='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">CSS</h3>
+                            <h3 className="skills__name">Photoshop</h3>
+                            <span className="skills__level">.</span>
+                        </div>
+                        
+                    </div>
+
+                    <div className="skills__data">
+                        <i class='bx bx-badge-check'></i>
+
+                        <div>
+                            <h3 className="skills__name">Illustrator</h3>
                             <span className="skills__level">.</span>
                         </div>
                         

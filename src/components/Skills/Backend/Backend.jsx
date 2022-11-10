@@ -12,7 +12,7 @@ export default function Backend(){
 
                         <div>
                             <h3 className="skills__name">SQl (Postges)</h3>
-                            <span className="skills__level">Intermedio</span>
+                            <span className="skills__level">.</span>
                         </div>
                         
                     </div>
@@ -22,7 +22,7 @@ export default function Backend(){
 
                         <div>
                             <h3 className="skills__name">Sequelize</h3>
-                            <span className="skills__level">Intermedio</span>
+                            <span className="skills__level">.</span>
                         </div>
                         
                     </div>
@@ -32,21 +32,16 @@ export default function Backend(){
 
                         <div>
                             <h3 className="skills__name">Express</h3>
-                            <span className="skills__level">Intermedio</span>
+                            <span className="skills__level">.</span>
                         </div>
                         
                     </div>
-                </div>
-            </div>
-
-            <div className="skills__box">
-                <div className="skills__group">
 
                     <div className="skills__data">
                         <i class='bx bx-badge-check'></i>
                         <div>
                             <h3 className="skills__name">Node.js</h3>
-                            <span className="skills__level">Intermediooooooooo</span>
+                            <span className="skills__level">.</span>
                         </div>
                         
                     </div>

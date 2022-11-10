@@ -1,5 +1,6 @@
 import React from "react";
 import Backend from "./Backend/Backend";
+import Extra from "./Extra/Extra";
 import Frontend from "./Fontend/Frontend";
 import './Skills.css'
 
@@ -12,6 +13,7 @@ export default function Skills(){
             <div className="skills__container container grid">
                 <Frontend/>
                 <Backend/>
+                <Extra/>
             </div>
         </section>
     )
