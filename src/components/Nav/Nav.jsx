@@ -37,7 +37,7 @@ export default function Nav(){
 
                         <li className="nav__item">
                             <a href="#services" className="nav__link">
-                                <i className="uil uil-briefcase-alt nav__icon"></i>
+                                <i className="uil uil-book-alt nav__icon"></i>
                                 Estudios
                             </a>
                         </li>
