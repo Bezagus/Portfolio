@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 export default function Alert() {
 
-    const [modal, setModal] = useState(1)
+    const [modal, setModal] = useState(0)
 
     function handleClick(index){
         setModal(index)
