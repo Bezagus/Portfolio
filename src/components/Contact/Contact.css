@@ -111,6 +111,10 @@
     transform: translatey(-0.1rem) translateX(0.1rem);
 }
 
+.error {
+    cursor: not-allowed;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
