@@ -8,7 +8,7 @@ import Home from "./components/Home/Home";
 import Nav from "./components/Nav/Nav";
 import Portfolio from "./components/Portfolio/Portfolio";
 import ScrollUp from "./components/ScrollUp/ScrollUp";
-import Services from "./components/Services/Services";
+import Studies from "./components/Studies/Studies";
 import Skills from "./components/Skills/Skills";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <Home/>
         <About/>
         <Skills/>
-        <Services/>
+        <Studies/>
         <Portfolio/>
         <Contact/>
       </main>

@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
-import './Services.css'
+import './Studies.css'
 
-export default function Services() {
+export default function Studies() {
 
     const [modal, setModal] = useState(0)
 
@@ -10,7 +10,7 @@ export default function Services() {
         setModal(index)
     }
   return (
-    <section className="services section" id="services">
+    <section className="services section" id="Studies">
         <h2 className="section__title">Estudios</h2>
         <span className="section__subtitle">Mis Estudios</span>
         

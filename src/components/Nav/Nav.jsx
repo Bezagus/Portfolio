@@ -44,7 +44,7 @@ export default function Nav(){
                         </li>
 
                         <li className="nav__item">
-                            <a href="#services" onClick={()=>setActiveNav("#services")} className={activeNav === "#services" ? "nav__link active-link" : "nav__link"}>
+                            <a href="#Studies" onClick={()=>setActiveNav("#services")} className={activeNav === "#services" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-book-alt nav__icon"></i>
                                 Estudios
                             </a>
