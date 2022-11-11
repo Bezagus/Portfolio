@@ -17,7 +17,7 @@ export default function Portfolio(){
                     <div className="portfiolio__content">
                         <div>
                             <i className="uil uil-laptop services__icon"></i>
-                            <h3 className="services__title">Proyecto 1 <br/> Portfolio</h3>
+                            <h3 className="services__title">Fullstack <br/> Book Recipes</h3>
                         </div>
 
                         <span className="services__button" >
@@ -36,7 +36,7 @@ export default function Portfolio(){
                     <div className="portfiolio__content">
                         <div>
                             <i className="uil uil-laptop services__icon"></i>
-                            <h3 className="services__title">Proyecto 1 <br/> Portfolio</h3>
+                            <h3 className="services__title">Fullstack <br/> Bienes Raices</h3>
                         </div>
 
                         <span className="services__button" >
@@ -56,7 +56,7 @@ export default function Portfolio(){
                     <div className="portfiolio__content">
                         <div>
                             <i className="uil uil-laptop services__icon"></i>
-                            <h3 className="services__title">Proyecto 1 <br/> Portfolio</h3>
+                            <h3 className="services__title">Front-end <br/> Portfolio</h3>
                         </div>
 
                         <span className="services__button" >
