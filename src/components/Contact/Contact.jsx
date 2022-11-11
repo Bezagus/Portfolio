@@ -15,7 +15,7 @@ const form = useRef();
       setModal(1)
   };
 
-  const [modal, setModal] = useState(1)
+  const [modal, setModal] = useState(0)
 
     function handleClick(index){
         setModal(index)
@@ -44,7 +44,7 @@ const form = useRef();
         <div className="contact__container container grid">
 
             <div className="contact__content">
-                <h3 className="contact__title">Lorem.</h3>
+                <h3 className="contact__title">Redes de Contacto</h3>
 
                 <div className="contact__info">
                     <div className="contact__card">
@@ -91,17 +91,17 @@ const form = useRef();
                 <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Name</label>
-                        <input type="text" name='name' className="contact__form-input"  placeholder='Ingresa tu Nombre'/>
+                        <input type="text" name='name' className="contact__form-input"  placeholder='Ingresa tu Nombre' required/>
                     </div>
 
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Email</label>
-                        <input type="email" name='email' className="contact__form-input"  placeholder='Ingresa tu Email'/>
+                        <input type="email" name='email' className="contact__form-input"  placeholder='Ingresa tu Email' required/>
                     </div>
 
                     <div className="contact__form-div contact_form-area">
                         <label className="contact__form-tag">Tu Proyecto</label>
-                        <textarea name='project' className='contact__form-input' cols='30' rows='10' placeholder='Ingresa mas Informacion'  />
+                        <textarea name='project' className='contact__form-input' cols='30' rows='10' placeholder='Ingresa mas Informacion'  required/>
                     </div>
 
                     <button className="button button--flex">
