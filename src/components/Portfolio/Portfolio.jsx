@@ -13,7 +13,7 @@ export default function Portfolio(){
             <div className="portfolio__container container grid">
 
                 <div className="portfolio__content">
-                    <a href="https://henrybienesraices.vercel.app/" target='_blank'><img src={img1} alt='Henry Bienes Raices' className="portfolio__content-img"/></a>
+                    <a href="hthttps://www.youtube.com/watch?v=gUPLw4EThp4  " target='_blank'><img src={img2} alt='Henry Bienes Raices' className="portfolio__content-img"/></a>
                     <div className="portfiolio__content">
                         <div>
                             <i className="uil uil-laptop services__icon"></i>
@@ -32,7 +32,7 @@ export default function Portfolio(){
             <div className="portfolio__container container grid">
 
                 <div className="portfolio__content">
-                <a href="hthttps://www.youtube.com/watch?v=gUPLw4EThp4  " target='_blank'><img src={img2} alt='Henry Bienes Raices' className="portfolio__content-img"/></a>
+                    <a href="https://henrybienesraices.vercel.app/" target='_blank'><img src={img1} alt='Henry Bienes Raices' className="portfolio__content-img"/></a>
                     <div className="portfiolio__content">
                         <div>
                             <i className="uil uil-laptop services__icon"></i>
