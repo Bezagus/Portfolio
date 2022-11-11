@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from '../../assets/cards.jpg'
 import img2 from '../../assets/landingpage.jpg'
-import img3 from '../../assets/work4.jpg'
+import img3 from '../../assets/portfolio.jpg'
 import './Portfolio.css'
 
 export default function Portfolio(){
@@ -32,7 +32,7 @@ export default function Portfolio(){
             <div className="portfolio__container container grid">
 
                 <div className="portfolio__content">
-                <a href="https://henrybienesraices.vercel.app/" target='_blank'><img src={img2} alt='Henry Bienes Raices' className="portfolio__content-img"/></a>
+                <a href="hthttps://www.youtube.com/watch?v=gUPLw4EThp4  " target='_blank'><img src={img2} alt='Henry Bienes Raices' className="portfolio__content-img"/></a>
                     <div className="portfiolio__content">
                         <div>
                             <i className="uil uil-laptop services__icon"></i>
@@ -52,7 +52,7 @@ export default function Portfolio(){
             <div className="portfolio__container container grid">
 
                 <div className="portfolio__content">
-                    <a href="https://henrybienesraices.vercel.app/" target='_blank'><img src={img3} alt='Henry Bienes Raices' className="portfolio__content-img"/></a>
+                    <a href="#home"><img src={img3} alt='Henry Bienes Raices' className="portfolio__content-img"/></a>
                     <div className="portfiolio__content">
                         <div>
                             <i className="uil uil-laptop services__icon"></i>
