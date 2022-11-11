@@ -18,8 +18,8 @@ export default function About(){
                     <p className="about__description">
                     Soy una Persona muy apasionada por la programación, mi pasión empezó en 
                     a los diecisiete años y desde que me metí en este hermoso mundo siempre lo 
-                    di todo tanto para mejorar mis habilidades técnicas como mejorando mis herramientas 
-                    de trabajo.
+                    di todo tanto para mejorar mis habilidades técnicas, mis herramientas 
+                    de trabajo y mi desarrollo personal.
                     </p><br/>
 
                     <a download='' href={CV} className="button button--flex">Descargar CV

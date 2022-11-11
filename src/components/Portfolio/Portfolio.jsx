@@ -1,4 +1,8 @@
 import React from "react";
+import img1 from '../../assets/cards.jpg'
+import img2 from '../../assets/landingpage.jpg'
+import img3 from '../../assets/work4.jpg'
+import './Portfolio.css'
 
 export default function Portfolio(){
     return(
@@ -6,44 +10,62 @@ export default function Portfolio(){
             <h2 className="section__title">Portfolio</h2>
             <span className="section__subtitle">Mis Proyectos</span>
             
-            <div className="services__container container grid">
-                <div className="services__content">
-                    <div>
-                        <i className="uil uil-laptop services__icon"></i>
-                        <h3 className="services__title">Proyecto 1 <br/> Portfolio</h3>
+            <div className="portfolio__container container grid">
+
+                <div className="portfolio__content">
+                    <a href="https://henrybienesraices.vercel.app/" target='_blank'><img src={img1} alt='Henry Bienes Raices' className="portfolio__content-img"/></a>
+                    <div className="portfiolio__content">
+                        <div>
+                            <i className="uil uil-laptop services__icon"></i>
+                            <h3 className="services__title">Proyecto 1 <br/> Portfolio</h3>
+                        </div>
+
+                        <span className="services__button" >
+                            Ver Mas 
+                            <i className="uil uil-arrow-right services__button-icon"></i>
+                        </span>
                     </div>
-
-                    <span className="services__button" >
-                        Ver Mas 
-                        <i className="uil uil-arrow-right services__button-icon"></i>
-                    </span>
-                </div>
-
-                <div className="services__content">
-                    <div>
-                        <i className="uil uil-laptop services__icon"></i>
-                        <h3 className="services__title">Proyecto 2<br/> Henry Bienes Raices</h3>
-                    </div>
-
-                    <span className="services__button" >
-                        Ver Mas 
-                        <i className="uil uil-arrow-right services__button-icon"></i>
-                    </span>
-                </div>
-
-                <div className="services__content">
-                    <div>
-                        <i className="uil uil-laptop services__icon"></i>
-                        <h3 className="services__title">Proyecto 3 <br/> Book Recipes</h3>
-                    </div>
-
-                    <span className="services__button">
-                        Ver Mas 
-                        <i className="uil uil-arrow-right services__button-icon"></i>
-                    </span>
                 </div>
                 
+            </div>
 
+            <div className="portfolio__container container grid">
+
+                <div className="portfolio__content">
+                <a href="https://henrybienesraices.vercel.app/" target='_blank'><img src={img2} alt='Henry Bienes Raices' className="portfolio__content-img"/></a>
+                    <div className="portfiolio__content">
+                        <div>
+                            <i className="uil uil-laptop services__icon"></i>
+                            <h3 className="services__title">Proyecto 1 <br/> Portfolio</h3>
+                        </div>
+
+                        <span className="services__button" >
+                            Ver Mas 
+                            <i className="uil uil-arrow-right services__button-icon"></i>
+                        </span>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+            <div className="portfolio__container container grid">
+
+                <div className="portfolio__content">
+                    <a href="https://henrybienesraices.vercel.app/" target='_blank'><img src={img3} alt='Henry Bienes Raices' className="portfolio__content-img"/></a>
+                    <div className="portfiolio__content">
+                        <div>
+                            <i className="uil uil-laptop services__icon"></i>
+                            <h3 className="services__title">Proyecto 1 <br/> Portfolio</h3>
+                        </div>
+
+                        <span className="services__button" >
+                            Ver Mas 
+                            <i className="uil uil-arrow-right services__button-icon"></i>
+                        </span>
+                    </div>
+                </div>
+                
             </div>
         </div>
     )

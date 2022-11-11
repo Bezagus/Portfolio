@@ -41,7 +41,7 @@ export default function Frontend(){
                         <i class='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name"><a href="https://auth0.com/" target='_blank'>Auth0</a></h3>
+                            <h3 className="skills__name"><a href="https://developer.mozilla.org/es/docs/Web/CSS" target='_blank'>CSS</a></h3>
                             <span className="skills__level">.</span>
                         </div>
                         
@@ -51,11 +51,12 @@ export default function Frontend(){
                         <i class='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name"><a href="https://developer.mozilla.org/es/docs/Web/CSS" target='_blank'>CSS</a></h3>
+                            <h3 className="skills__name"><a href="https://auth0.com/" target='_blank'>Auth0</a></h3>
                             <span className="skills__level">.</span>
                         </div>
                         
                     </div>
+
                 </div>
             </div>
 
