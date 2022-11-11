@@ -42,7 +42,7 @@ export default function Contact() {
                         <h3 className="contact__card-title">LinkedIn</h3>
                         <span className="contact__card-data">Agustin Benitez</span>
 
-                        <a href="www.linkedin.com/in/agustin-benitez-271b94241" className="contact__button">
+                        <a href="https://www.linkedin.com/in/agustin-benitez-271b94241" className="contact__button">
                             Escribime
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
@@ -71,7 +71,7 @@ export default function Contact() {
                     </div>
 
                     <button className="button button--flex">
-                Enviar.
+                Enviar Mensaje
                 <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
