@@ -1,9 +1,43 @@
 import React from 'react'
+import { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import './Contact.css'
 
 export default function Contact() {
+
+const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_834hygk', 'template_z4ymtpw', form.current, '87jy49jrpSWpxpbG4')
+      e.target.reset()
+      setModal(1)
+  };
+
+  const [modal, setModal] = useState(1)
+
+    function handleClick(index){
+        setModal(index)
+    }
+
+    setTimeout(function(){
+        handleClick(0)},4000);
+
   return (
     <section className="contact section" id="contact">
+
+                    <div className={modal === 1? "services__modal modal__active":"services__modal"} >
+                        <div className="services__modal-content">
+                            <i className="uil uil-times services__modal-close" onClick={()=>handleClick(0)}></i>
+
+                            <h3 className="services__modal-title">Mensaje Enviado Correctamente!</h3>
+                            <p className="services__modal-description">Pronto Recibira una respuesta al mail proporcionado</p>
+
+                            
+                        </div>
+                    </div>
+
         <h2 className="section__title">Contacto</h2>
         <span className="section__subtitle">Contactame.</span>
 
@@ -54,7 +88,7 @@ export default function Contact() {
             <div className="contact__content">
                 <h3 className="contact__title">Hablame sobre tu Popuesta.</h3>
 
-                <form className="contact__form">
+                <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Name</label>
                         <input type="text" name='name' className="contact__form-input"  placeholder='Ingresa tu Nombre'/>
