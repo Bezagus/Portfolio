@@ -11,7 +11,7 @@ export default function Backend(){
                         <i class='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">SQl (Postges)</h3>
+                            <h3 className="skills__name"><a href="https://www.postgresql.org/" target='_blank'>SQl (Postges)</a></h3>
                             <span className="skills__level">.</span>
                         </div>
                         
@@ -21,7 +21,7 @@ export default function Backend(){
                         <i class='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Sequelize</h3>
+                            <h3 className="skills__name"><a href="https://sequelize.org/" target='_blank'>Sequelize</a></h3>
                             <span className="skills__level">.</span>
                         </div>
                         
@@ -31,7 +31,7 @@ export default function Backend(){
                         <i class='bx bx-badge-check'></i>
 
                         <div>
-                            <h3 className="skills__name">Express</h3>
+                            <h3 className="skills__name"><a href="https://expressjs.com/es/" target='_blank'>Express</a></h3>
                             <span className="skills__level">.</span>
                         </div>
                         
@@ -40,7 +40,7 @@ export default function Backend(){
                     <div className="skills__data">
                         <i class='bx bx-badge-check'></i>
                         <div>
-                            <h3 className="skills__name">Node.js</h3>
+                            <h3 className="skills__name"><a href="https://nodejs.org/en/" target='_blank'>Node.js</a></h3>
                             <span className="skills__level">.</span>
                         </div>
                         

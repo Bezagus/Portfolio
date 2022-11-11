@@ -65,7 +65,7 @@ const form = useRef();
 
                         <a href=
                         "https://api.whatsapp.com/send/?phone=5492972527279&text=hola%20me%20gustaria%20coordinar%20una%20reunion,%20cuando%20tenes%20disponible?" 
-                        className="contact__button">
+                        className="contact__button" target='_blank'>
                             Escribime
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
@@ -76,7 +76,7 @@ const form = useRef();
                         <h3 className="contact__card-title">LinkedIn</h3>
                         <span className="contact__card-data">Agustin Benitez</span>
 
-                        <a href="https://www.linkedin.com/in/agustin-benitez-271b94241" className="contact__button">
+                        <a href="https://www.linkedin.com/in/agustin-benitez-271b94241" target='_blank' className="contact__button">
                             Escribime
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>

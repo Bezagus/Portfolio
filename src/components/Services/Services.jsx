@@ -26,9 +26,9 @@ export default function Services() {
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    <div className={modal === 1? "services__modal modal__active":"services__modal"}>
+                    <div className={modal === 1? "services__modal modal__active":"services__modal"} onClick={()=>handleClick(0)}>
                         <div className="services__modal-content">
-                            <i className="uil uil-times services__modal-close" onClick={()=>handleClick(0)}></i>
+                            <i className="uil uil-times services__modal-close"></i>
 
                             <h3 className="services__modal-title">Developer Fullstack</h3>
                             <p className="services__modal-description">Recibido en Soy Henry, un bootcamp de mas de 800horas  
@@ -80,12 +80,12 @@ export default function Services() {
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    <div className={modal === 3? "services__modal modal__active":"services__modal"}>
+                    <div className={modal === 3? "services__modal modal__active":"services__modal"} onClick={()=>handleClick(0)}>
                         <div className="services__modal-content">
-                            <i className="uil uil-times services__modal-close" onClick={()=>handleClick(0)}></i>
+                            <i className="uil uil-times services__modal-close" ></i>
 
                             <h3 className="services__modal-title">Tecnico en Energias Renovables</h3>
-                            <p className="services__modal-description">Recibido en la E.P.E.T N° 21 San Martin de los Andes, recibido en 2021.</p>
+                            <p className="services__modal-description">Recibido en 2022 en la E.P.E.T N° 21 San Martin de los Andes, com tecnico en energias renovables.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
@@ -128,9 +128,9 @@ export default function Services() {
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    <div className={modal === 2? "services__modal modal__active":"services__modal"}>
+                    <div className={modal === 2? "services__modal modal__active":"services__modal"} onClick={()=>handleClick(0)}>
                         <div className="services__modal-content">
-                            <i className="uil uil-times services__modal-close" onClick={()=>handleClick(0)}></i>
+                            <i className="uil uil-times services__modal-close" ></i>
 
                             <h3 className="services__modal-title">Cursos</h3>
                             <p className="services__modal-description">Estos son algunos de mis cursos realizados que mas destacan.</p>
@@ -159,6 +159,11 @@ export default function Services() {
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">Desarrollo de APP'S Mobiles (Google Activate).</p>
+                                </li>
+
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className="services__modal-info">Productividad Personal (Google Ativate).</p>
                                 </li>
 
                                 <li className="services__modal-service">

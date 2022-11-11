@@ -49,6 +49,21 @@
 
 }
 
+body::-webkit-scrollbar {
+    background-color: transparent;
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--title-color);
+    border-radius: 2rem;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: var(--title-color-dark);
+}
+
+
 @media screen and (max-width: 992px) {
     :root {
       --big-font-size: 2.75rem;
