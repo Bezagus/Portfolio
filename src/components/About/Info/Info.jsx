@@ -6,19 +6,19 @@ export default function Info(){
             <div className="about__box">
                 <i class='bx bx-briefcase-alt about__icon'></i>
                 <h3 className="about__title">Proyectos</h3>
-                <span className="about__subtitle">3 Proyectos</span>
+                <span className="about__subtitle nocopy">3 Proyectos</span>
             </div>
 
             <div className="about__box">
                 <i class='bx bx-bar-chart-alt-2 about__icon'></i>
                 <h3 className="about__title">Habilidades</h3>
-                <span className="about__subtitle">Full Stack</span>
+                <span className="about__subtitle nocopy">Full Stack</span>
             </div>
 
             <div className="about__box">
                 <i class='bx bx-support about__icon'></i>
                 <h3 className="about__title">Soporte</h3>
-                <span className="about__subtitle">Online 24/7</span>
+                <span className="about__subtitle nocopy">Online 24/7</span>
             </div>
         </div>
     )

@@ -34,7 +34,7 @@ export default function Footer() {
                     <i class="bx bxl-youtube"></i>
                 </a>
             </div>
-            <span className='footer__copy'>
+            <span className='footer__copy nocopy'>
                     &#169; Agustin Benitez. Derechos Reservado.
             </span>
         </div>

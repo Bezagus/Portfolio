@@ -16,7 +16,7 @@ export default function Portfolio(){
     return(
         <div id="portfolio">
             <h2 className="section__title">Portfolio</h2>
-            <span className="section__subtitle">Mis Proyectos</span>
+            <span className="section__subtitle nocopy">Mis Proyectos</span>
             
             <div className="portfolio__container container grid">
 

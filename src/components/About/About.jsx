@@ -8,7 +8,7 @@ export default function About(){
     return (
         <section className="about section" id="about">
             <h2 className="section__title">Sobre Mi</h2>
-            <span className="section__subtitle">Mas Sobre mi</span>
+            <span className="section__subtitle nocopy">Mas Sobre mi</span>
 
             <div className="about__container container grid">
                 <img src={AboutImg} alt='Agustin Benitez' className="about__img"/>
@@ -18,7 +18,7 @@ export default function About(){
                     <p className="about__description">
                     Soy una Persona muy apasionada por la programación, mi pasión empezó a los 
                     diecisiete años y desde que me metí en este hermoso mundo siempre lo 
-                    di todo tanto para mejorar mis habilidades técnicas, mis herramientas 
+                    di todo tanto para mejorar mis habilidades técnicas, como mis herramientas 
                     de trabajo y mi desarrollo personal.
                     </p><br/>
 

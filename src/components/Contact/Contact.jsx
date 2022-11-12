@@ -41,7 +41,7 @@ const form = useRef();
                     </div>
 
         <h2 className="section__title">Contacto</h2>
-        <span className="section__subtitle">Contactame.</span>
+        <span className="section__subtitle nocopy">Contactame.</span>
 
         <div className="contact__container container grid">
 

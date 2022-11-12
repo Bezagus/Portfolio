@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll';
 import './ScrollUp.css'
 
 export default function ScrollUp() {
@@ -11,8 +12,8 @@ export default function ScrollUp() {
     })
 
   return (
-    <a href="#" className="scrollup">
+    <Link to="home" spy={true} smooth={true} offset={0} duration={500} className="scrollup">
         <i className="uil uil-arrow-up scrollup__icon"></i>
-    </a>
+    </Link>
   )
 }

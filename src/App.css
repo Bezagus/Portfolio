@@ -94,6 +94,7 @@ input,
 textarea {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
+    user-select: none;
 }
 
 body {
@@ -114,6 +115,16 @@ ul{
 
 a{
     text-decoration: none;
+}
+h1:hover,
+h2:hover,
+h3:hover,
+p:hover {
+    cursor: default;
+}
+
+.nocopy {
+    cursor: default;
 }
 
 button{

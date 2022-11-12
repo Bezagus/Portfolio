@@ -12,7 +12,7 @@ export default function Studies() {
   return (
     <section className="services section" id="Studies">
         <h2 className="section__title">Estudios</h2>
-        <span className="section__subtitle">Mis Estudios</span>
+        <span className="section__subtitle nocopy">Mis Estudios</span>
         
         <div className="services__container container grid">
                 <div className="services__content">
