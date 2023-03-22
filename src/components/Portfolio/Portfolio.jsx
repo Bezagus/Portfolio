@@ -3,6 +3,7 @@ import { useState } from 'react'
 import img1 from '../../assets/cards.jpg'
 import img2 from '../../assets/landingpage.jpg'
 import img3 from '../../assets/portfolio.jpg'
+import img4 from '../../assets/P-Proyectos.jpg'
 import './Portfolio.css'
 
 export default function Portfolio(){
@@ -125,7 +126,7 @@ export default function Portfolio(){
                     <div className="portfiolio__content">
                         <div>
                             <i className="uil uil-laptop services__icon"></i>
-                            <h3 className="services__title">Front-end <br/> Portfolio</h3>
+                            <h3 className="services__title">Front-End <br/> Portfolio</h3>
                         </div>
 
                         <span className="services__button"  onClick={()=> handleClick(3)}>
@@ -156,6 +157,43 @@ export default function Portfolio(){
                      IconScout,
                      Iconbox</p>
                 </div>
+            </div>
+
+            <div className="portfolio__container container grid">
+
+                <div className="portfolio__content">
+                    <a href="https://youtu.be/gUPLw4EThp4" target='_blank'><img src={img4} alt='Book Recipes' className="portfolio__content-img"/></a>
+                    <div className="portfiolio__content">
+                        <div>
+                            <i className="uil uil-laptop services__icon"></i>
+                            <h3 className="services__title">Front-End <br/> Portfolio de Proyectos</h3>
+                        </div>
+
+                        <span className="services__button" onClick={()=> handleClick(4)}>
+                            Ver Mas 
+                            <i className="uil uil-arrow-right services__button-icon"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div className={modal === 4? "services__modal modal__active":"services__modal"} >
+                <div className="services__modal-content">
+                    <i className="uil uil-times services__modal-close" onClick={()=>handleClick(0)}></i>
+                    <h3 className="services__modal-title">Portfolio de Proyectos</h3>
+                    <p className="services__modal-description">
+                        Este Pryecto esta creado con el objetivo de Mostrar Mis Habilidades en Accion, Anteriormente Mencione 
+                        las tecnologias que domino ahora con este proyecto busco poder mostrar diversos proyecto, desde lo mas simple a 
+                        los Proyectos que requieren de mas de una Tecnologia. <br/>
+                        Te Invito a Visitarlo!!    
+                    </p>      
+                     <a href="https://agustin-benitez-proyetos.vercel.app/" target='_blank' className="services__button" onClick={()=> handleClick(1)}>
+                         Ver Proyecto
+                         <i className="uil uil-arrow-right services__button-icon"></i>
+                     </a>
+                </div>
+
+            </div>
+                
             </div>
         </div>
     )
