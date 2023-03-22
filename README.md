@@ -4,6 +4,10 @@
   <img height="200" src="./multimedia/logogrande.jpg" />
 </p>
 
+<p>
+Este Proyecto esta creado con el objetivo de tranmitir mi trabajo y conocimientos a usuraios y empresas, el proyrecto es totalmente responsive para que pueda ser visto en celulares, tables y computadoras
+</p>
+
 ## Tecnologias Utilizadas
 
 - JavaScript
