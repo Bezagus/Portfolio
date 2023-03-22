@@ -5,8 +5,8 @@ export default function Info(){
         <div className="about__info grid">
             <div className="about__box">
                 <i class='bx bx-briefcase-alt about__icon'></i>
-                <h3 className="about__title">Proyectos</h3>
-                <span className="about__subtitle nocopy">3 Proyectos</span>
+                <h3 className="about__title">Proyectos Destacados</h3>
+                <span className="about__subtitle nocopy">4 Proyectos</span>
             </div>
 
             <div className="about__box">
