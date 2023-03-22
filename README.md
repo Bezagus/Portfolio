@@ -3,7 +3,7 @@
     <img src='./multimedia/105977398_1022271888192761_4771831057490710035_n.jpg' </img>
 </p>
 
-# Control de Stock - Pluma Blanca
+# Portfolio Personal
 
 <p align="center">
   <img height="200" src="./multimedia/logogrande.jpg" />
