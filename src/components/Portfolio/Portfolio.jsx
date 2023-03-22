@@ -185,7 +185,7 @@ export default function Portfolio(){
                         las tecnologias que domino ahora con este proyecto busco poder mostrar diversos proyecto, desde lo mas simple a 
                         los Proyectos que requieren de mas de una Tecnologia. <br/>
                     </p>      
-                     <a href="https://agustin-benitez-proyetos.vercel.app/" target='_blank' className="services__button" onClick={()=> handleClick(1)}>
+                     <a href="https://agustin-benitez-proyectos.vercel.app/" target='_blank' className="services__button" onClick={()=> handleClick(1)}>
                          Ver Proyecto
                          <i className="uil uil-arrow-right services__button-icon"></i>
                      </a>
