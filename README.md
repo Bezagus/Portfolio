@@ -1,6 +1,6 @@
 # Portfolio Personal
 
-<p align="center">
+<p align="left">
   <img height="200" src="./portfolio/Logo-Grande.svg" />
 </p>
 
