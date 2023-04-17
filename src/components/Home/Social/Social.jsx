@@ -3,7 +3,7 @@ import React from "react";
 export default function Social(){
     return(
         <div className="home__social">
-            <a href="https://www.linkedin.com/in/agustin-benitez-271b94241" className="home__social-icon" target="_blank">
+            <a href="https://www.linkedin.com/in/agustin-david-benitez/" className="home__social-icon" target="_blank">
                 <i class="uil uil-linkedin"></i>
             </a>
 
