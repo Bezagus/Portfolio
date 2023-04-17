@@ -78,7 +78,7 @@ const form = useRef();
                         <h3 className="contact__card-title">LinkedIn</h3>
                         <span className="contact__card-data">Agustin Benitez</span>
 
-                        <a href="https://www.linkedin.com/in/agustin-benitez-271b94241" target='_blank' className="contact__button">
+                        <a href="https://www.linkedin.com/in/agustin-david-benitez/" target='_blank' className="contact__button">
                             Escribime
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
