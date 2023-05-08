@@ -5,24 +5,32 @@ import CV from '../../assets/CV-AgustinBenitez.pdf'
 import './About.css'
 
 export default function About(){
+
+  var URLactual = window.location;
+
     return (
         <section className="about section" id="about">
-            <h2 className="section__title">Sobre Mi</h2>
-            <span className="section__subtitle nocopy">Mas Sobre mi</span>
+            <h2 className="section__title">{URLactual.pathname == '/en'? 'About Me': 'Sobre Mi'}</h2>
+            <span className="section__subtitle nocopy">{URLactual.pathname == '/en'? 'More About Me': 'Mas Sobre mi'}</span>
 
             <div className="about__container container grid">
                 <img src={AboutImg} alt='Agustin Benitez' className="about__img"/>
 
                 <div className="about__data">
                     <Info/>
-                    <p className="about__description">
-                    Soy una Persona muy apasionada por la programación, mi pasión empezó a los 
-                    diecisiete años y desde que me metí en este hermoso mundo siempre lo 
-                    di todo tanto para mejorar mis habilidades técnicas, como mis herramientas 
-                    de trabajo y mi desarrollo personal.
+                    <p className="about__description">{
+                      URLactual.pathname == '/en'? 
+                      `I am a person who is very passionate about programming. My passion started at the age of seventeen, 
+                      and ever since I got into this beautiful world, I always gave my all to improve my technical skills, 
+                      my work tools, and my personal development.`:
+                      `Soy una Persona muy apasionada por la programación, mi pasión empezó a los 
+                      diecisiete años y desde que me metí en este hermoso mundo siempre lo 
+                      di todo tanto para mejorar mis habilidades técnicas, como mis herramientas 
+                      de trabajo y mi desarrollo personal.`
+                    }
                     </p><br/>
 
-                    <a download='' href={CV} className="button button--flex">Descargar CV
+                    <a download='' href={CV} className="button button--flex">{URLactual.pathname == '/en'? 'Download CV': 'Descargar CV'}
                     <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

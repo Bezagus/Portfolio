@@ -12,6 +12,12 @@ import Studies from "./components/Studies/Studies";
 import Skills from "./components/Skills/Skills";
 
 function App() {
+  var URLactual = window.location;
+
+  if(URLactual.pathname != '/es' && URLactual.pathname != '/en'){
+    window.location.href ="/en";
+  }
+
   return (
     <>
       <Nav/>

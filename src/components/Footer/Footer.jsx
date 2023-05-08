@@ -2,6 +2,9 @@ import React from 'react'
 import './Footer.css'
 
 export default function Footer() {
+
+    var URLactual = window.location;
+
   return (
     <footer className="footer">
         <div className="footer__container container">
@@ -9,15 +12,15 @@ export default function Footer() {
 
             <ul className="footer__list">
                 <li>
-                    <a href="#about" className="footer__link">Sobre Mi</a>
+                    <a href="#about" className="footer__link">{URLactual.pathname == '/en'? `About Me`: `Sobre Mi`}</a>
                 </li>
 
                 <li>
-                    <a href="#portfolio" className="footer__link">Proyectos</a>
+                    <a href="#portfolio" className="footer__link">{URLactual.pathname == '/en'? `Projects`: `Proyectos`}</a>
                 </li>
 
                 <li>
-                    <a href="#services" className="footer__link">Estudios</a>
+                    <a href="#services" className="footer__link">{URLactual.pathname == '/en'? `Studies`: `Estudios`}</a>
                 </li>
             </ul>
 
@@ -35,7 +38,7 @@ export default function Footer() {
                 </a>
             </div>
             <span className='footer__copy nocopy'>
-                    &#169; Agustin Benitez. Derechos Reservado.
+                    &#169; Agustin Benitez. {URLactual.pathname == '/en'? `All rights reserved`: `Derechos Reservado.`}
             </span>
         </div>
     </footer>

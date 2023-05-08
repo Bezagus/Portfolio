@@ -1,6 +1,9 @@
 import React from "react";
 
 export default function Data(){
+
+    var URLactual = window.location;
+
     return(
         <div className="home__data">
             <h1 className="home__title">Agustin
@@ -56,13 +59,22 @@ export default function Data(){
             </h1>
             <h3 className="home__subtitle">Developer Full Stack</h3>
             <p className="home__description">
-            Soy Agustin Benitez Full Stack Developer con formación como Desarrollador 
-            Web. Experiencia trabajando en NodeJS, React, Redux, 
-            SQL entre otras tecnologías del sector.
+              {
+                URLactual.pathname == '/en'?
+                `I am Agustin Benitez, a Full Stack Developer with training in Web Development. 
+                I have experience working with NodeJS, React, Redux, SQL, among other technologies 
+                in the sector.` : 
+                `Soy Agustin Benitez Full Stack Developer con formación como Desarrollador 
+                Web. Experiencia trabajando en NodeJS, React, Redux, 
+                SQL entre otras tecnologías del sector.`
+              }
+            
             </p>
 
             <a href="#contact" className="button button--flex">
-                Contactame.
+                {
+                  URLactual.pathname == '/en'? `Contact Me` : `Contactame.`
+                }
                 <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"

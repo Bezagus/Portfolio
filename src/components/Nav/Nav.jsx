@@ -16,6 +16,8 @@ export default function Nav(){
     const [Toggle, showMenu] = useState(false);
     const [activeNav, setActiveNav] = useState("#home")
 
+    var URLactual = window.location;
+
     return(
         <header className="header">
             <nav className="nav container">
@@ -26,28 +28,28 @@ export default function Nav(){
                         <li className="nav__item nocopy">
                             <Link to="home" spy={true} smooth={true} offset={0} duration={500} onClick={()=>setActiveNav("#home")} className={activeNav === "#home" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-estate nav__icon"></i>
-                                Inicio
+                                {URLactual.pathname == '/en'? 'Home' : 'Inicio'}
                             </Link>
                         </li>
 
                         <li className="nav__item nocopy">
                             <Link to="about" spy={true} smooth={true} offset={0} duration={500} onClick={()=>setActiveNav("#about")} className={activeNav === "#about" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-user nav__icon"></i>
-                                Sobre Mi
+                                {URLactual.pathname == '/en'? 'About Me' : 'Sobre Mi'}
                             </Link>
                         </li>
 
                         <li className="nav__item nocopy">
                             <Link to="skills" spy={true} smooth={true} offset={0} duration={500} onClick={()=>setActiveNav("#skills")} className={activeNav === "#skills" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-file-alt nav__icon"></i>
-                                Habilidades
+                                {URLactual.pathname == '/en'? 'Skills' : 'Habilidades'}
                             </Link>
                         </li>
 
                         <li className="nav__item nocopy">
                             <Link to="Studies" spy={true} smooth={true} offset={0} duration={500}onClick={()=>setActiveNav("#Studies")} className={activeNav === "#services" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-book-alt nav__icon"></i>
-                                Estudios
+                                {URLactual.pathname == '/en'? 'Studies' : 'Estudios'}
                             </Link>
                         </li>
 
@@ -61,7 +63,7 @@ export default function Nav(){
                         <li className="nav__item nocopy">
                             <Link to="contact" spy={true} smooth={true} offset={0} duration={500} onClick={()=>setActiveNav("#contact")} className={activeNav === "#contact" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-message nav__icon"></i>
-                                Contacto
+                                {URLactual.pathname == '/en'? 'Contact' : 'Contacto'}
                             </Link>
                         </li>
 

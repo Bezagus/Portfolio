@@ -1,6 +1,8 @@
 import React from "react";
 
 export default function ScrollDown(){
+    var URLactual = window.location;
+
     return(
         <div className="home__scroll">
             <a href="#about" className="home__scroll-button button--flex">
@@ -39,7 +41,7 @@ export default function ScrollDown(){
                 }}
                 ></path>
               </svg>
-              <span className="home__scroll-name">Desplazarse Abajo</span>
+              <span className="home__scroll-name">{URLactual.pathname == '/en'? `Scroll Down` : `Desplazarse Abajo`}</span>
               <i class="uil uil-arrow-down home__scroll-arrow"></i>
             </a>
         </div>
