@@ -17,7 +17,7 @@ const form = useRef();
 
   const [modal, setModal] = useState(0);
   
-  const [erorr ,setError] = useState(false)
+  const [erorr ,setError] = useState(false) 
 
     function handleClick(index){
         setModal(index)
