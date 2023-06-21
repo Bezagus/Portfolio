@@ -25,7 +25,7 @@ export default function Footer() {
             </ul>
 
             <div className="footer__social">
-                <a href="https://www.linkedin.com/in/agustin-benitez-271b94241" className="footer__social-link" target="_blank">
+                <a href="https://www.linkedin.com/in/agustin-david-benitez/" className="footer__social-link" target="_blank">
                     <i class="bx bxl-linkedin"></i>
                 </a>
 

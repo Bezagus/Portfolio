@@ -20,8 +20,8 @@ export default function Info(){
 
             <div className="about__box">
                 <i class='bx bx-support about__icon'></i>
-                <h3 className="about__title">{URLactual.pathname == '/en'? `Support`: `Soporte`}</h3>
-                <span className="about__subtitle nocopy">Online 24/7</span>
+                <h3 className="about__title">{URLactual.pathname == '/en'? `Work Experience`: `Experiencia Laboral`}</h3>
+                <span className="about__subtitle nocopy"><a href="https://www.linkedin.com/in/agustin-david-benitez/"  target="_blank">{URLactual.pathname == '/en'? `See`: `Ver`}</a></span>
             </div>
         </div>
     )

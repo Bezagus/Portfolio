@@ -79,7 +79,7 @@ export default function Studies() {
                     <div className="services__content">
                         <div>
                             <i className="uil uil-wind-sun services__icon"></i>
-                            <h3 className="services__title">{URLactual.pathname == '/en'? `Technician`: `Tecnico`}<br/> {URLactual.pathname == '/en'? `Renewable Energy`: `Energias Renovables`}</h3>
+                            <h3 className="services__title">{URLactual.pathname == '/en'? `Data Science and`: `Data Science e`}<br/> {URLactual.pathname == '/en'? `Artficial Intelligence`: `Inteligencia Artificial`}</h3>
                         </div>
 
                         <span className="services__button" onClick={()=>handleClick(3)}>
@@ -88,6 +88,59 @@ export default function Studies() {
                         </span>
 
                         <div className={modal === 3? "services__modal modal__active":"services__modal"} onClick={()=>handleClick(0)}>
+                            <div className="services__modal-content">
+                                <i className="uil uil-times services__modal-close" ></i>
+
+                                <h3 className="services__modal-title">{URLactual.pathname == '/en'? `Data Science and Artificial Intelligence`: `Data Science e Inteligencia Artificial`}</h3>
+                                <p className="services__modal-description">{URLactual.pathname == '/en'?`hola `: `Academia de Inteligencia Artificial de Platzi, en la cual se ve temas muy completos como Machine Learning, Deep Learning, Algebra, Matematica, Estadistica, manejo de datos y mucho mas.`}</p>
+
+                                <ul className="services__modal-services grid">
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p className="services__modal-info">Python</p>
+                                    </li>
+
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p className="services__modal-info">Machine Learning</p>
+                                    </li>
+
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p className="services__modal-info">Deep Learning</p>
+                                    </li>
+
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p className="services__modal-info">Git | Github</p>
+                                    </li>
+
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p className="services__modal-info">SQL</p>
+                                    </li>
+
+                                    <li className="services__modal-service">
+                                        <i className="uil uil-check-circle services__modal-icon"></i>
+                                        <p className="services__modal-info">Linux</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="services__content">
+                        <div>
+                            <i className="uil uil-wind-sun services__icon"></i>
+                            <h3 className="services__title">{URLactual.pathname == '/en'? `Technician`: `Tecnico`}<br/> {URLactual.pathname == '/en'? `Renewable Energy`: `Energias Renovables`}</h3>
+                        </div>
+
+                        <span className="services__button" onClick={()=>handleClick(4)}>
+                            {URLactual.pathname == '/en'? `See More`: `Ver Mas` }
+                            <i className="uil uil-arrow-right services__button-icon"></i>
+                        </span>
+
+                        <div className={modal === 4? "services__modal modal__active":"services__modal"} onClick={()=>handleClick(0)}>
                             <div className="services__modal-content">
                                 <i className="uil uil-times services__modal-close" ></i>
 

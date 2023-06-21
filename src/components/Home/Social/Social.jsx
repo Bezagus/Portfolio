@@ -15,10 +15,6 @@ export default function Social(){
             <a href="https://www.youtube.com/channel/UC6JvQsrhTbVTeq3bb3gfP6Q" className="home__social-icon" target="_blank">
                 <i class="uil uil-youtube"></i>
             </a>
-
-            <a href={URLactual.pathname == '/en'? '/es' : '/en'} className="home__social-icon">
-                <i class='bx bxs-comment-edit'></i>
-            </a>
         </div>
     )
 }

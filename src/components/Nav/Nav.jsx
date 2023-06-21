@@ -23,6 +23,7 @@ export default function Nav(){
             <nav className="nav container">
                 <a href="index.html" className="nav__logo"><img src={Logo} alt="Agustin Benitez" className="img__logo"/></a>
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+                        <p>{URLactual.pathname == '/en'? 'Lenguages' : 'Idiomas'} :  <b><a href="/es">Español</a> | <a href="/en">English</a></b></p>
                     <ul className="nav__list grid">
 
                         <li className="nav__item nocopy">
@@ -66,8 +67,7 @@ export default function Nav(){
                                 {URLactual.pathname == '/en'? 'Contact' : 'Contacto'}
                             </Link>
                         </li>
-
-                    </ul>
+                    </ul> 
 
                     <i class="uil uil-times nav__close" onClick={()=> showMenu(!Toggle)}></i>
                 </div>

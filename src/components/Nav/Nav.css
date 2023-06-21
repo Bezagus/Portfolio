@@ -51,6 +51,18 @@
 .nav__link:hover {
     color: var(--title-color-dark);
 }
+.nav__menu p b a{
+    text-decoration: none;
+    color: #555;
+}
+.nav__menu p{
+    text-align: end;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.nav__menu p b a:hover{
+    cursor: pointer;
+}
 
 @media screen and (max-width: 768px) {
     .header{
@@ -67,7 +79,7 @@
         left: 0;
         width: 100%;
         background-color: var(--body-color);
-        padding: 2rem 1.5rem 4rem;
+        padding: 1rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
@@ -109,6 +121,12 @@
     .nav__close,
     .nav__toggle{
         display: block;
+    }
+    .nav__menu p{
+        color: #aaa;
+        text-align: center;
+        font-size: 10px;
+        padding-bottom: 20px;
     }
 }
 

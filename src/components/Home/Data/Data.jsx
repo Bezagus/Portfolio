@@ -57,16 +57,14 @@ export default function Data(){
                   ></path>
             </svg>
             </h1>
-            <h3 className="home__subtitle">Developer Full Stack</h3>
+            <h3 className="home__subtitle">Software Developer</h3>
             <p className="home__description">
               {
                 URLactual.pathname == '/en'?
-                `I am Agustin Benitez, a Full Stack Developer with training in Web Development. 
-                I have experience working with NodeJS, React, Redux, SQL, among other technologies 
-                in the sector.` : 
-                `Soy Agustin Benitez Full Stack Developer con formación como Desarrollador 
-                Web. Experiencia trabajando en NodeJS, React, Redux, 
-                SQL entre otras tecnologías del sector.`
+                `I am Agustin Benitez a Software Developer, Data Scientist and Artificial Intelligence.
+                I use JavaScript and Python as programming languages and have experience in prominent technologies such as React, SQL, Node.js, Express, Pandas, Numpy, Matplotlib, Seaborn, Anaconda, among others.` : 
+                `Soy Agustin Benitez Desarrollador de Software, Cientifico de datos e Inteligencia Artificial.
+                Utilizo JavaScript y Python como lenguajes de programacion, tengo experiencia en tecnologias destacadas como React, SQL, Node Js, Express, Pandas, Numpy, MatplotLib, Seaborn, Anaconda, entre otras.`
               }
             
             </p>
