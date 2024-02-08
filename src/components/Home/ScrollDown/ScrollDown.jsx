@@ -41,7 +41,7 @@ export default function ScrollDown(){
                 }}
                 ></path>
               </svg>
-              <span className="home__scroll-name">{URLactual.pathname == '/en'? `Scroll Down` : `Desplazarse Abajo`}</span>
+              <span className="home__scroll-name">{URLactual.pathname === '/en'? `Scroll Down` : `Desplazarse Abajo`}</span>
               <i class="uil uil-arrow-down home__scroll-arrow"></i>
             </a>
         </div>

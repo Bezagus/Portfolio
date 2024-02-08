@@ -14,8 +14,8 @@ export default function Studies() {
 
     return (
         <section className="services section" id="Studies">
-            <h2 className="section__title">{URLactual.pathname == '/en'? `Studies`: `Estudios`}</h2>
-            <span className="section__subtitle nocopy">{URLactual.pathname == '/en'? `My Estudies`: `Mis Estudios`}</span>
+            <h2 className="section__title">{URLactual.pathname === '/en'? `Studies`: `Estudios`}</h2>
+            <span className="section__subtitle nocopy">{URLactual.pathname === '/en'? `My Estudies`: `Mis Estudios`}</span>
 
             
             
@@ -28,7 +28,7 @@ export default function Studies() {
                         </div>
 
                         <span className="services__button" onClick={()=>handleClick(1)}>
-                            {URLactual.pathname == '/en'? `See More`: `Ver Mas` }
+                            {URLactual.pathname === '/en'? `See More`: `Ver Mas` }
                             <i className="uil uil-arrow-right services__button-icon"></i>
                         </span>
 
@@ -37,8 +37,8 @@ export default function Studies() {
                                 <i className="uil uil-times services__modal-close"></i>
 
                                 <h3 className="services__modal-title">Developer Fullstack</h3>
-                                <p className="services__modal-description">{URLactual.pathname == '/en'? `Received training at Soy Henry, a bootcamp with more than 800 hours of theoretical and practical instruction`: `Recibido en Soy Henry, un bootcamp de mas de 800horas  
-                                Teoricas/Practicas.`}<br/> {URLactual.pathname == '/en'? `Over the course of five intense months, I developed a Recipe application and a group project for a real estate company`: `5 meses intensos donde desarrolle una aplicacion de Recetas y un proyecto grupal para una inmobiliaria` }</p>
+                                <p className="services__modal-description">{URLactual.pathname === '/en'? `Received training at Soy Henry, a bootcamp with more than 800 hours of theoretical and practical instruction`: `Recibido en Soy Henry, un bootcamp de mas de 800horas  
+                                Teoricas/Practicas.`}<br/> {URLactual.pathname === '/en'? `Over the course of five intense months, I developed a Recipe application and a group project for a real estate company`: `5 meses intensos donde desarrolle una aplicacion de Recetas y un proyecto grupal para una inmobiliaria` }</p>
 
                                 <ul className="services__modal-services grid">
                                     <li className="services__modal-service">
@@ -79,11 +79,11 @@ export default function Studies() {
                     <div className="services__content">
                         <div>
                             <i className="uil uil-wind-sun services__icon"></i>
-                            <h3 className="services__title">{URLactual.pathname == '/en'? `Data Science and`: `Data Science e`}<br/> {URLactual.pathname == '/en'? `Artficial Intelligence`: `Inteligencia Artificial`}</h3>
+                            <h3 className="services__title">{URLactual.pathname === '/en'? `Data Science and`: `Data Science e`}<br/> {URLactual.pathname === '/en'? `Artficial Intelligence`: `Inteligencia Artificial`}</h3>
                         </div>
 
                         <span className="services__button" onClick={()=>handleClick(3)}>
-                            {URLactual.pathname == '/en'? `See More`: `Ver Mas` }
+                            {URLactual.pathname === '/en'? `See More`: `Ver Mas` }
                             <i className="uil uil-arrow-right services__button-icon"></i>
                         </span>
 
@@ -91,8 +91,8 @@ export default function Studies() {
                             <div className="services__modal-content">
                                 <i className="uil uil-times services__modal-close" ></i>
 
-                                <h3 className="services__modal-title">{URLactual.pathname == '/en'? `Data Science and Artificial Intelligence`: `Data Science e Inteligencia Artificial`}</h3>
-                                <p className="services__modal-description">{URLactual.pathname == '/en'?`hola `: `Academia de Inteligencia Artificial de Platzi, en la cual se ve temas muy completos como Machine Learning, Deep Learning, Algebra, Matematica, Estadistica, manejo de datos y mucho mas.`}</p>
+                                <h3 className="services__modal-title">{URLactual.pathname === '/en'? `Data Science and Artificial Intelligence`: `Data Science e Inteligencia Artificial`}</h3>
+                                <p className="services__modal-description">{URLactual.pathname === '/en'?`hola `: `Academia de Inteligencia Artificial de Platzi, en la cual se ve temas muy completos como Machine Learning, Deep Learning, Algebra, Matematica, Estadistica, manejo de datos y mucho mas.`}</p>
 
                                 <ul className="services__modal-services grid">
                                     <li className="services__modal-service">
@@ -132,11 +132,11 @@ export default function Studies() {
                     <div className="services__content">
                         <div>
                             <i className="uil uil-wind-sun services__icon"></i>
-                            <h3 className="services__title">{URLactual.pathname == '/en'? `Technician`: `Tecnico`}<br/> {URLactual.pathname == '/en'? `Renewable Energy`: `Energias Renovables`}</h3>
+                            <h3 className="services__title">{URLactual.pathname === '/en'? `Technician`: `Tecnico`}<br/> {URLactual.pathname === '/en'? `Renewable Energy`: `Energias Renovables`}</h3>
                         </div>
 
                         <span className="services__button" onClick={()=>handleClick(4)}>
-                            {URLactual.pathname == '/en'? `See More`: `Ver Mas` }
+                            {URLactual.pathname === '/en'? `See More`: `Ver Mas` }
                             <i className="uil uil-arrow-right services__button-icon"></i>
                         </span>
 
@@ -144,33 +144,33 @@ export default function Studies() {
                             <div className="services__modal-content">
                                 <i className="uil uil-times services__modal-close" ></i>
 
-                                <h3 className="services__modal-title">{URLactual.pathname == '/en'? `Renewable Energy Technician`: `Tecnico en Energias Renovables`}</h3>
-                                <p className="services__modal-description">{URLactual.pathname == '/en'?`Received a degree in Renewable Energy Technician in 2022 from E.P.E.T N° 21 San Martin de los Andes.`:`Recibido en 2022 en la E.P.E.T N° 21 San Martin de los Andes, com tecnico en energias renovables.`}</p>
+                                <h3 className="services__modal-title">{URLactual.pathname === '/en'? `Renewable Energy Technician`: `Tecnico en Energias Renovables`}</h3>
+                                <p className="services__modal-description">{URLactual.pathname === '/en'?`Received a degree in Renewable Energy Technician in 2022 from E.P.E.T N° 21 San Martin de los Andes.`:`Recibido en 2022 en la E.P.E.T N° 21 San Martin de los Andes, com tecnico en energias renovables.`}</p>
 
                                 <ul className="services__modal-services grid">
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p className="services__modal-info">{URLactual.pathname == '/en'? `Solar Energy.`: `Energia Solar.`}</p>
+                                        <p className="services__modal-info">{URLactual.pathname === '/en'? `Solar Energy.`: `Energia Solar.`}</p>
                                     </li>
 
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p className="services__modal-info">{URLactual.pathname == '/en'? `Wind energy.`: `Energia Eolica.`}</p>
+                                        <p className="services__modal-info">{URLactual.pathname === '/en'? `Wind energy.`: `Energia Eolica.`}</p>
                                     </li>
 
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p className="services__modal-info">{URLactual.pathname == '/en'? `Hydraulic Energy.`: `Energia Hidrulica.`}</p>
+                                        <p className="services__modal-info">{URLactual.pathname === '/en'? `Hydraulic Energy.`: `Energia Hidrulica.`}</p>
                                     </li>
 
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p className="services__modal-info">{URLactual.pathname == '/en'? `Sustainability.`: `Sustentabilidad.`}</p>
+                                        <p className="services__modal-info">{URLactual.pathname === '/en'? `Sustainability.`: `Sustentabilidad.`}</p>
                                     </li>
 
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p className="services__modal-info">{URLactual.pathname == '/en'? `Budgets.`: `Presupuestos.`}</p>
+                                        <p className="services__modal-info">{URLactual.pathname === '/en'? `Budgets.`: `Presupuestos.`}</p>
                                     </li>
                                 </ul>
                             </div>
@@ -180,11 +180,11 @@ export default function Studies() {
                     <div className="services__content">
                         <div>
                             <i className="uil uil-notebooks services__icon"></i>
-                            <h3 className="services__title">{URLactual.pathname == '/en'? `Seminars`: `Seminarios`} <br/> {URLactual.pathname == '/en'? `Courses`: `Cursos`}</h3>
+                            <h3 className="services__title">{URLactual.pathname === '/en'? `Seminars`: `Seminarios`} <br/> {URLactual.pathname === '/en'? `Courses`: `Cursos`}</h3>
                         </div>
 
                         <span className="services__button" onClick={()=>handleClick(2)}>
-                            {URLactual.pathname == '/en'? `See More`: `Ver Mas` }
+                            {URLactual.pathname === '/en'? `See More`: `Ver Mas` }
                             <i className="uil uil-arrow-right services__button-icon"></i>
                         </span>
 
@@ -192,43 +192,43 @@ export default function Studies() {
                             <div className="services__modal-content">
                                 <i className="uil uil-times services__modal-close" ></i>
 
-                                <h3 className="services__modal-title">{URLactual.pathname == '/en'? `Courses`: `Cursos`}</h3>
-                                <p className="services__modal-description">{URLactual.pathname == '/en'? `These are some of my most notable completed courses`: `Estos son algunos de mis cursos realizados que mas destacan.`}</p>
+                                <h3 className="services__modal-title">{URLactual.pathname === '/en'? `Courses`: `Cursos`}</h3>
+                                <p className="services__modal-description">{URLactual.pathname === '/en'? `These are some of my most notable completed courses`: `Estos son algunos de mis cursos realizados que mas destacan.`}</p>
 
                                 <ul className="services__modal-services grid">
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p className="services__modal-info">{URLactual.pathname == '/en'? `Graphic Design in Photoshop(Edutin).` : `Diseño Grafico en Photoshop (Edutin).`}</p>
+                                        <p className="services__modal-info">{URLactual.pathname === '/en'? `Graphic Design in Photoshop(Edutin).` : `Diseño Grafico en Photoshop (Edutin).`}</p>
                                     </li>
 
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p className="services__modal-info">{URLactual.pathname == '/en'? `Graphic Design in Illustrator(Edutin).` : `Diseño Grafico en Illustrator (Edutin).`}</p>
+                                        <p className="services__modal-info">{URLactual.pathname === '/en'? `Graphic Design in Illustrator(Edutin).` : `Diseño Grafico en Illustrator (Edutin).`}</p>
                                     </li>
 
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p className="services__modal-info">{URLactual.pathname == '/en'? `Web Development with HTML(Google Activate).` : `Desarrollo Web HTML (Google Activate).`}</p>
+                                        <p className="services__modal-info">{URLactual.pathname === '/en'? `Web Development with HTML(Google Activate).` : `Desarrollo Web HTML (Google Activate).`}</p>
                                     </li>
 
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p className="services__modal-info">{URLactual.pathname == '/en'? `Web Development with CSS(Google Activate).` : `Desarrollo Web CSS (Google Activate).`}</p>
+                                        <p className="services__modal-info">{URLactual.pathname === '/en'? `Web Development with CSS(Google Activate).` : `Desarrollo Web CSS (Google Activate).`}</p>
                                     </li>
 
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p className="services__modal-info">{URLactual.pathname == '/en'? `Mobile App Development (Google Activate)` : `Desarrollo de APP'S Mobiles (Google Activate).`}</p>
+                                        <p className="services__modal-info">{URLactual.pathname === '/en'? `Mobile App Development (Google Activate)` : `Desarrollo de APP'S Mobiles (Google Activate).`}</p>
                                     </li>
 
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p className="services__modal-info">{URLactual.pathname == '/en'? `Personal Productivity (Google Activate)` : `Productividad Personal (Google Ativate).`}</p>
+                                        <p className="services__modal-info">{URLactual.pathname === '/en'? `Personal Productivity (Google Activate)` : `Productividad Personal (Google Ativate).`}</p>
                                     </li>
 
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p className="services__modal-info">{URLactual.pathname == '/en'? `Computer Equipment Repair Technician.` : `Tenico en Reparacion de Equipos Informaticos.`}</p>
+                                        <p className="services__modal-info">{URLactual.pathname === '/en'? `Computer Equipment Repair Technician.` : `Tenico en Reparacion de Equipos Informaticos.`}</p>
                                     </li>
                                 </ul>
                             </div>

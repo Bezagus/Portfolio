@@ -60,7 +60,7 @@ export default function Data(){
             <h3 className="home__subtitle">Software Developer</h3>
             <p className="home__description">
               {
-                URLactual.pathname == '/en'?
+                URLactual.pathname === '/en'?
                 `I am Agustin Benitez a Software Developer, Data Scientist and Artificial Intelligence.
                 I use JavaScript and Python as programming languages and have experience in prominent technologies such as React, SQL, Node.js, Express, Pandas, Numpy, Matplotlib, Seaborn, Anaconda, among others.` : 
                 `Soy Agustin Benitez Desarrollador de Software, Cientifico de datos e Inteligencia Artificial.
@@ -71,7 +71,7 @@ export default function Data(){
 
             <a href="#contact" className="button button--flex">
                 {
-                  URLactual.pathname == '/en'? `Contact Me` : `Contactame.`
+                  URLactual.pathname === '/en'? `Contact Me` : `Contactame.`
                 }
                 <svg
                   class="button__icon"
