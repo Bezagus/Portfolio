@@ -35,20 +35,20 @@ const form = useRef();
                         <div className="services__modal-content">
                             <i className="uil uil-times services__modal-close" onClick={()=>handleClick(0)}></i>
 
-                            <h3 className="services__modal-title">{URLactual.pathname == '/en'? `Message Sent Successfully!`: `Mensaje Enviado Correctamente!`}</h3>
-                            <p className="services__modal-description">{URLactual.pathname == '/en'? `You will soon receive a response at the email address provided`: `Pronto Recibira una respuesta al mail proporcionado`}</p>
+                            <h3 className="services__modal-title">{URLactual.pathname === '/en'? `Message Sent Successfully!`: `Mensaje Enviado Correctamente!`}</h3>
+                            <p className="services__modal-description">{URLactual.pathname === '/en'? `You will soon receive a response at the email address provided`: `Pronto Recibira una respuesta al mail proporcionado`}</p>
 
                             
                         </div>
                     </div>
 
-        <h2 className="section__title">{URLactual.pathname == '/en'? `Contact`: `Contacto`}</h2>
-        <span className="section__subtitle nocopy">{URLactual.pathname == '/en'? `Contact me`: `Contactame.`}</span>
+        <h2 className="section__title">{URLactual.pathname === '/en'? `Contact`: `Contacto`}</h2>
+        <span className="section__subtitle nocopy">{URLactual.pathname === '/en'? `Contact me`: `Contactame.`}</span>
 
         <div className="contact__container container grid">
 
             <div className="contact__content">
-                <h3 className="contact__title">{URLactual.pathname == '/en'? `Contact Networks`: `Redes de Contacto`}</h3>
+                <h3 className="contact__title">{URLactual.pathname === '/en'? `Contact Networks`: `Redes de Contacto`}</h3>
 
                 <div className="contact__info">
                     <div className="contact__card">
@@ -57,7 +57,7 @@ const form = useRef();
                         <span className="contact__card-data">bezagus@gmail.com</span>
 
                         <a href="mailto:agustindavidbenitez1@gmail.com" className="contact__button">
-                            {URLactual.pathname == '/en'? `Write to me`: `Escribime`}
+                            {URLactual.pathname === '/en'? `Write to me`: `Escribime`}
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>
@@ -69,8 +69,8 @@ const form = useRef();
 
                         <a href=
                         "https://api.whatsapp.com/send/?phone=5492972527279&text=hola%20me%20gustaria%20coordinar%20una%20reunion,%20cuando%20tenes%20disponible?" 
-                        className="contact__button" target='_blank'>
-                            {URLactual.pathname == '/en'? `Write to me`: `Escribime`}
+                        className="contact__button" target='_blank' rel="noreferrer">
+                            {URLactual.pathname === '/en'? `Write to me`: `Escribime`}
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>
@@ -80,8 +80,8 @@ const form = useRef();
                         <h3 className="contact__card-title">LinkedIn</h3>
                         <span className="contact__card-data">Agustin Benitez</span>
 
-                        <a href="https://www.linkedin.com/in/agustin-david-benitez/" target='_blank' className="contact__button">
-                            {URLactual.pathname == '/en'? `Write to me`: `Escribime`}
+                        <a href="https://www.linkedin.com/in/agustin-david-benitez/" target='_blank' rel="noreferrer" className="contact__button">
+                            {URLactual.pathname === '/en'? `Write to me`: `Escribime`}
                             <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                         </a>
                     </div>
@@ -90,28 +90,28 @@ const form = useRef();
             </div>
 
             <div className="contact__content">
-                <h3 className="contact__title">{URLactual.pathname == '/en'? `Tell me about your proposal.`: `Hablame sobre tu Popuesta.`}</h3>
+                <h3 className="contact__title">{URLactual.pathname === '/en'? `Tell me about your proposal.`: `Hablame sobre tu Popuesta.`}</h3>
 
                 <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
-                        <label className="contact__form-tag">{URLactual.pathname == '/en'? `Name`:`Nombre`}</label>
-                        <input type="text" name='name' className="contact__form-input"  placeholder={URLactual.pathname == '/en'? `Insert your name`: 'Ingresa tu Nombre'} required/>
+                        <label className="contact__form-tag">{URLactual.pathname === '/en'? `Name`:`Nombre`}</label>
+                        <input type="text" name='name' className="contact__form-input"  placeholder={URLactual.pathname === '/en'? `Insert your name`: 'Ingresa tu Nombre'} required/>
                     </div>
 
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Email</label>
-                        <input type="email" name='email' className="contact__form-input"  placeholder={URLactual.pathname == '/en'? `Insert your mail`: 'Ingresa tu Email'} required/>
+                        <input type="email" name='email' className="contact__form-input"  placeholder={URLactual.pathname === '/en'? `Insert your mail`: 'Ingresa tu Email'} required/>
                     </div>
 
                     <div className="contact__form-div contact_form-area">
-                        <label className="contact__form-tag">{URLactual.pathname == '/en'? `Your project`: `Tu Proyecto`}</label>
-                        <textarea name='project' className='contact__form-input' cols='30' rows='10' placeholder={URLactual.pathname == '/en'? `Insert more information`: 'Ingresa mas Informacion'}  required/>
+                        <label className="contact__form-tag">{URLactual.pathname === '/en'? `Your project`: `Tu Proyecto`}</label>
+                        <textarea name='project' className='contact__form-input' cols='30' rows='10' placeholder={URLactual.pathname === '/en'? `Insert more information`: 'Ingresa mas Informacion'}  required/>
                     </div>
 
                     {
                         erorr ? 
                         <button type='submit' className="button button--flex error"  disabled={true}>
-                            {URLactual.pathname == '/en'? `Send message`: `Enviar Mensaje`}
+                            {URLactual.pathname === '/en'? `Send message`: `Enviar Mensaje`}
                             <svg
                               class="button__icon"
                               xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +131,7 @@ const form = useRef();
                             </svg>
                         </button>:
                         <button type='submit' className="button button--flex">
-                            {URLactual.pathname == '/en'? `Send message`: `Enviar Mensaje`} 
+                            {URLactual.pathname === '/en'? `Send message`: `Enviar Mensaje`} 
                             <svg
                               class="button__icon"
                               xmlns="http://www.w3.org/2000/svg"

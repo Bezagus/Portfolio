@@ -11,8 +11,8 @@ export default function About(){
 
     return (
         <section className="about section" id="about">
-            <h2 className="section__title">{URLactual.pathname == '/en'? 'About Me': 'Sobre Mi'}</h2>
-            <span className="section__subtitle nocopy">{URLactual.pathname == '/en'? 'More About Me': 'Mas Sobre mi'}</span>
+            <h2 className="section__title">{URLactual.pathname === '/en'? 'About Me': 'Sobre Mi'}</h2>
+            <span className="section__subtitle nocopy">{URLactual.pathname === '/en'? 'More About Me': 'Mas Sobre mi'}</span>
 
             <div className="about__container container grid">
                 <img src={AboutImg} alt='Agustin Benitez' className="about__img"/>
@@ -20,7 +20,7 @@ export default function About(){
                 <div className="about__data">
                     <Info/>
                     <p className="about__description">{
-                      URLactual.pathname == '/en'? 
+                      URLactual.pathname === '/en'? 
                       `I am a person who is very passionate about programming. My passion started at the age of seventeen, 
                       and ever since I got into this beautiful world, I always gave my all to improve my technical skills, 
                       my work tools, and my personal development.`:
@@ -31,7 +31,7 @@ export default function About(){
                     }
                     </p><br/>
 
-                    <a download='' href={URLactual.pathname == '/en'? cvEnglish: cvSpanish} className="button button--flex">{URLactual.pathname == '/en'? 'Download CV': 'Descargar CV'}
+                    <a download='' href={URLactual.pathname === '/en'? cvEnglish: cvSpanish} className="button button--flex">{URLactual.pathname === '/en'? 'Download CV': 'Descargar CV'}
                     <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

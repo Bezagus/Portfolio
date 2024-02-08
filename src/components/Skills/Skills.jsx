@@ -10,8 +10,8 @@ export default function Skills(){
 
     return (
         <section className="skills section" id="skills">
-            <h2 className="section__title">{URLactual.pathname == '/en'? `Skills`: `Habilidades`}</h2>
-            <span className="section__subtitle nocopy">{URLactual.pathname == '/en'? `Technologies / Tools`: `Tecnologias / Herramientas`}</span>
+            <h2 className="section__title">{URLactual.pathname === '/en'? `Skills`: `Habilidades`}</h2>
+            <span className="section__subtitle nocopy">{URLactual.pathname === '/en'? `Technologies / Tools`: `Tecnologias / Herramientas`}</span>
 
             <div className="skills__container container grid">
                 <Frontend/>
