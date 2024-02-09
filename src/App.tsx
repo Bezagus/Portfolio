@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import About from "./components/About/About";
-import Alert from "./components/alert/Alert";
+import Alert from "./components/Alert/Alert";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";

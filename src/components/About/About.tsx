@@ -1,8 +1,8 @@
 import React from "react";
 import Info from "./Info/Info";
-import AboutImg from '../../assets/IMG-0432.jpg';
-import cvEnglish from '../../assets/Agustin Benitez- Software Developer  (English).pdf'
-import cvSpanish from '../../assets/Agustin Benitez- Software Developer  (Spanish).pdf'
+import AboutImg from '../../assets/profile.jpg';
+import cvEnglish from '../../assets/pdf/curriculum_english.pdf'
+import cvSpanish from '../../assets/pdf/curriculum_spanish.pdf'
 import './About.css'
 
 export default function About(){
@@ -31,9 +31,9 @@ export default function About(){
                     }
                     </p><br/>
 
-                    <a download='' href={URLactual.pathname === '/en'? cvEnglish: cvSpanish} className="button button--flex">{URLactual.pathname === '/en'? 'Download CV': 'Descargar CV'}
+                    <a download='Agustin Benitez - Front End Developer"' href={URLactual.pathname === '/en'? cvEnglish: cvSpanish} className="button button--flex">{URLactual.pathname === '/en'? 'Download CV': 'Descargar CV'}
                     <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"

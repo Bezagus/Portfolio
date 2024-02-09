@@ -9,8 +9,8 @@ export default function Nav(){
     window.addEventListener("scroll", function (){
         const header =  document.querySelector(".header");
 
-        if(this.scrollY >= 80) header.classList.add("scroll-header")
-        else header.classList.remove("scroll-header")
+        if(this.scrollY >= 80) header?.classList.add("scroll-header")
+        else header?.classList.remove("scroll-header")
     })
 
     const [Toggle, showMenu] = useState(false);
@@ -69,11 +69,11 @@ export default function Nav(){
                         </li>
                     </ul> 
 
-                    <i class="uil uil-times nav__close" onClick={()=> showMenu(!Toggle)}></i>
+                    <i className="uil uil-times nav__close" onClick={()=> showMenu(!Toggle)}></i>
                 </div>
 
                 <div className="nav__toggle" onClick={()=> showMenu(!Toggle)}>
-                    <i class="uil uil-apps"></i>
+                    <i className="uil uil-apps"></i>
                 </div>
             </nav>
         </header>

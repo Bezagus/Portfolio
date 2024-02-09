@@ -1,16 +1,16 @@
 import React from "react";
 import { useState } from 'react'
-import img1 from '../../assets/cards.jpg'
-import img2 from '../../assets/landingpage.jpg'
-import img3 from '../../assets/portfolio.jpg'
-import img4 from '../../assets/P-Proyectos.jpg'
+import img1 from '../../assets/screenshots/cards.jpg'
+import img2 from '../../assets/screenshots/landingpage.jpg'
+import img3 from '../../assets/screenshots/portfolio.jpg'
+import img4 from '../../assets/screenshots/P-Proyectos.jpg'
 import './Portfolio.css'
 
 export default function Portfolio(){
 
     const [modal, setModal] = useState(0)
 
-    function handleClick(index){
+    function handleClick(index: number){
         setModal(index)
     }
 

@@ -1,7 +1,7 @@
 import React from "react";
-import Social from "./Social/Social.jsx";
-import Data from "./Data/Data.jsx";
-import ScrollDown from "./ScrollDown/ScrollDown.jsx";
+import Social from "./Social/Social";
+import Data from "./Data/Data";
+import ScrollDown from "./ScrollDown/ScrollDown";
 import './Home.css'
 
 export default function Home(){

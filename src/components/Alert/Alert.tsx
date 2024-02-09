@@ -5,7 +5,7 @@ export default function Alert() {
 
     const [modal, setModal] = useState(0)
 
-    function handleClick(index){
+    function handleClick(index:number){
         setModal(index)
     }
 

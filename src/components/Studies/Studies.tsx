@@ -6,7 +6,7 @@ export default function Studies() {
 
     const [modal, setModal] = useState(0)
 
-    function handleClick(index){
+    function handleClick(index: number){
         setModal(index)
     }
 

@@ -26,15 +26,15 @@ export default function Footer() {
 
             <div className="footer__social">
                 <a href="https://www.linkedin.com/in/agustin-david-benitez/" className="footer__social-link" target="_blank" rel="noreferrer">
-                    <i class="bx bxl-linkedin"></i>
+                    <i className="bx bxl-linkedin"></i>
                 </a>
 
                 <a href="https://www.github.com/Bezagus" className="footer__social-link" target="_blank" rel="noreferrer">
-                    <i class="bx bxl-github"></i>
+                    <i className="bx bxl-github"></i>
                 </a>
 
                 <a href="https://www.youtube.com/channel/UC6JvQsrhTbVTeq3bb3gfP6Q" className="footer__social-link" target="_blank" rel="noreferrer">
-                    <i class="bx bxl-youtube"></i>
+                    <i className="bx bxl-youtube"></i>
                 </a>
             </div>
             <span className='footer__copy nocopy'>

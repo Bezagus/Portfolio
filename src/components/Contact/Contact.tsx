@@ -1,25 +1,27 @@
-import React from 'react'
-import { useRef, useState } from 'react';
+import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import './Contact.css'
 
 export default function Contact() {
 
-const form = useRef();
+  const formRef = useRef<HTMLFormElement>(null);
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_834hygk', 'template_z4ymtpw', form.current, '87jy49jrpSWpxpbG4')
-      e.target.reset()
+    if(formRef && formRef.current){
+      emailjs.sendForm('service_834hygk', 'template_z4ymtpw', formRef.current, '87jy49jrpSWpxpbG4')
+      e.currentTarget.reset()
       setModal(1)
+    }
+
   };
 
   const [modal, setModal] = useState(0);
   
-  const [erorr ,setError] = useState(false) 
+  /* const [erorr ,setError] = useState(false)  */
 
-    function handleClick(index){
+    function handleClick(index:number){
         setModal(index)
     }
 
@@ -76,7 +78,7 @@ const form = useRef();
                     </div>
 
                     <div className="contact__card">
-                        <i class='bx bxl-linkedin contact__card-icon' ></i>
+                        <i className='bx bxl-linkedin contact__card-icon' ></i>
                         <h3 className="contact__card-title">LinkedIn</h3>
                         <span className="contact__card-data">Agustin Benitez</span>
 
@@ -92,7 +94,7 @@ const form = useRef();
             <div className="contact__content">
                 <h3 className="contact__title">{URLactual.pathname === '/en'? `Tell me about your proposal.`: `Hablame sobre tu Popuesta.`}</h3>
 
-                <form ref={form} onSubmit={sendEmail} className="contact__form">
+                <form ref={formRef} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
                         <label className="contact__form-tag">{URLactual.pathname === '/en'? `Name`:`Nombre`}</label>
                         <input type="text" name='name' className="contact__form-input"  placeholder={URLactual.pathname === '/en'? `Insert your name`: 'Ingresa tu Nombre'} required/>
@@ -105,15 +107,15 @@ const form = useRef();
 
                     <div className="contact__form-div contact_form-area">
                         <label className="contact__form-tag">{URLactual.pathname === '/en'? `Your project`: `Tu Proyecto`}</label>
-                        <textarea name='project' className='contact__form-input' cols='30' rows='10' placeholder={URLactual.pathname === '/en'? `Insert more information`: 'Ingresa mas Informacion'}  required/>
+                        <textarea name='project' className='contact__form-input' cols={30} rows={10} placeholder={URLactual.pathname === '/en'? `Insert more information`: 'Ingresa mas Informacion'}  required/>
                     </div>
 
-                    {
+                    {/* {
                         erorr ? 
                         <button type='submit' className="button button--flex error"  disabled={true}>
                             {URLactual.pathname === '/en'? `Send message`: `Enviar Mensaje`}
                             <svg
-                              class="button__icon"
+                              className="button__icon"
                               xmlns="http://www.w3.org/2000/svg"
                               width="24"
                               height="24"
@@ -129,11 +131,11 @@ const form = useRef();
                                 fill="var(--container-color)"
                               ></path>
                             </svg>
-                        </button>:
+                        </button>: */}
                         <button type='submit' className="button button--flex">
                             {URLactual.pathname === '/en'? `Send message`: `Enviar Mensaje`} 
                             <svg
-                              class="button__icon"
+                              className="button__icon"
                               xmlns="http://www.w3.org/2000/svg"
                               width="24"
                               height="24"
@@ -150,7 +152,7 @@ const form = useRef();
                               ></path>
                             </svg>
                         </button>
-                    }
+                    {/* } */}
                 </form>
             </div>
 
