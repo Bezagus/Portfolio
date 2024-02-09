@@ -18,7 +18,13 @@
     "start": "react-scripts start --file index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write .",
+    "lint": "eslint --ext=.tsx,.ts,.js,.jsx ./src"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +49,11 @@
     "@testing-library/react": "^14.2.1",
     "@testing-library/user-event": "^14.5.2",
     "@types/react-scroll": "^1.8.10",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "^3.2.5",
     "tsconfig-paths": "^4.2.0",
     "tsconfig-paths-webpack-plugin": "^4.1.0",
     "typescript": "^5.3.3"

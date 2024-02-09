@@ -1,39 +1,39 @@
-import React from "react";
-import "./App.css";
-import About from "./components/About/About";
-import Alert from "./components/Alert/Alert";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
-import Home from "./components/Home/Home";
-import Nav from "./components/Nav/Nav";
-import Portfolio from "./components/Portfolio/Portfolio";
-import ScrollUp from "./components/ScrollUp/ScrollUp";
-import Studies from "./components/Studies/Studies";
-import Skills from "./components/Skills/Skills";
+import React from 'react';
+import './App.css';
+import About from './components/About/About';
+import Alert from './components/Alert/Alert';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
+import Nav from './components/Nav/Nav';
+import Portfolio from './components/Portfolio/Portfolio';
+import ScrollUp from './components/ScrollUp/ScrollUp';
+import Studies from './components/Studies/Studies';
+import Skills from './components/Skills/Skills';
 
 function App() {
-  var URLactual = window.location;
+  const URLactual = window.location;
 
-  if(URLactual.pathname !== '/es' && URLactual.pathname !== '/en'){
-    window.location.href ="/en";
+  if (URLactual.pathname !== '/es' && URLactual.pathname !== '/en') {
+    window.location.href = '/en';
   }
 
   return (
     <>
-      <Nav/>
+      <Nav />
 
       <main className="main">
-        <Alert/>
-        <Home/>
-        <About/>
-        <Skills/>
-        <Studies/>
-        <Portfolio/>
-        <Contact/>
+        <Alert />
+        <Home />
+        <About />
+        <Skills />
+        <Studies />
+        <Portfolio />
+        <Contact />
       </main>
 
-      <Footer/>
-      <ScrollUp/>
+      <Footer />
+      <ScrollUp />
     </>
   );
 }
