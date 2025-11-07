@@ -47,15 +47,6 @@ export default function Footer() {
           >
             <i className="bx bxl-github"></i>
           </a>
-
-          <a
-            href="https://www.youtube.com/channel/UC6JvQsrhTbVTeq3bb3gfP6Q"
-            className="footer__social-link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="bx bxl-youtube"></i>
-          </a>
         </div>
         <span className="footer__copy nocopy">
           &#169; Agustin Benitez.{' '}
