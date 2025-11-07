@@ -15,12 +15,6 @@
   column-gap: 1rem;
 }
 
-.nav__logo,
-.nav__toggle {
-  color: var(--title-color);
-  font-weight: (--font-medium);
-}
-
 .nav__list {
   display: flex;
   column-gap: 2rem;
@@ -49,7 +43,8 @@
 /* Active Link */
 .active-link,
 .nav__link:hover {
-  color: var(--title-color-dark);
+  opacity: 0.7;
+  cursor: pointer;
 }
 .nav__menu p b a {
   text-decoration: none;

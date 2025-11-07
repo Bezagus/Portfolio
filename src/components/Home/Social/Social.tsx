@@ -20,15 +20,6 @@ export default function Social() {
       >
         <i className="uil uil-github"></i>
       </a>
-
-      <a
-        href="https://www.youtube.com/channel/UC6JvQsrhTbVTeq3bb3gfP6Q"
-        className="home__social-icon"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <i className="uil uil-youtube"></i>
-      </a>
     </div>
   );
 }
