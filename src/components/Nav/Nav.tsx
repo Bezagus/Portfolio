@@ -37,7 +37,7 @@ export default function Nav() {
                       : 'nav__link'
                   }
                 >
-                  <i className="uil uil-estate nav__icon"></i>
+                  <i className={`uil ${section.icon} nav__icon`}></i>
                   {presenter.currentURL.pathname === '/en'
                     ? section.pathEn
                     : section.pathEn}

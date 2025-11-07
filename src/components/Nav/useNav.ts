@@ -7,36 +7,42 @@ const HASH_SECTIONS = [
     key: NavSectionsEnum.HOME,
     pathSp: 'Inicio',
     pathEn: 'Home',
+    icon: 'uil-estate',
   },
   {
     to: 'about',
     key: NavSectionsEnum.ABOUT,
     pathSp: 'Sobre Mi',
     pathEn: 'About Me',
+    icon: 'uil-user',
   },
   {
     to: 'skills',
     key: NavSectionsEnum.SKILLS,
     pathSp: 'Habilidades',
     pathEn: 'Skills',
+    icon: 'uil-file-alt',
   },
   {
     to: 'Studies',
     key: NavSectionsEnum.STUDIES,
     pathSp: 'Estudios',
     pathEn: 'Studies',
+    icon: 'uil-book-alt',
   },
   {
     to: 'portfolio',
     key: NavSectionsEnum.PORTFOLIO,
     pathSp: 'Portfolio',
     pathEn: 'Portfolio',
+    icon: 'uil-scenery',
   },
   {
     to: 'contact',
     key: NavSectionsEnum.CONTACT,
     pathSp: 'Contacto',
     pathEn: 'Contact',
+    icon: 'uil-message',
   },
 ];
 
